@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "NewSite-01-04_1121",
-    "currentPage": "producten.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise3",
       "title": "Mobirise 3",
@@ -21,7 +21,7 @@
       }
     },
     "versionFirst": "3.10.3",
-    "uniqCompNum": 18,
+    "uniqCompNum": 19,
     "versionPublish": "3.10.3"
   },
   "pages": {
@@ -225,20 +225,19 @@
           "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">Home</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"overons.html\">Over ons</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"producten.html\">Producten</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"contact.html\">Contact</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
         },
         {
-          "alias": "mobirise3-blocks/components",
           "_tags": [
-            "Extension"
+            "Theme"
           ],
-          "_name": "extSlider1",
+          "_name": "slider",
           "_params": {
             "autoplay": true,
             "paddingTop": 3,
             "paddingBottom": 3,
-            "timeout": "7",
+            "timeout": "4",
             "slides": [
               {
-                "active": true,
-                "image": "@PROJECT_PATH@/assets/images/dsc03064-1024x576px-2000x1125-4.jpg",
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/dsc03064-1024x576px-2000x1125-15.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "overlay": true,
@@ -247,13 +246,13 @@
                 "showTitle": true,
                 "title": "GKA",
                 "showText": true,
-                "text": "Wij zijn... [insert text here]",
+                "text": "Wij zijn... [Inset text here]",
                 "showButtons": false,
-                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
               },
               {
                 "active": false,
-                "image": "@PROJECT_PATH@/assets/images/dsc03096-1024x576px-2000x1125-93.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc03096-1024x576px-2000x1125-31.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "overlay": true,
@@ -267,8 +266,8 @@
                 "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
               },
               {
-                "active": false,
-                "image": "@PROJECT_PATH@/assets/images/dsc03138-1920x1080px-2000x1125-54.jpg",
+                "active": true,
+                "image": "@PROJECT_PATH@/assets/images/dsc03138-1024x576px-2000x1125-15.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "overlay": true,
@@ -286,13 +285,8 @@
             "bgColor": "#fff",
             "showBullets": true
           },
-          "_anchor": "extSlider1-3",
-          "articleLayout": false,
-          "_styles": {
-            "H2": {
-              "font-size": "60px"
-            }
-          }
+          "_anchor": "slider-i",
+          "articleLayout": false
         }
       ]
     },
@@ -738,7 +732,7 @@
             "showSubtitle": true,
             "showText": true,
             "showForm": true,
-            "buttons2": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\">Afsluiters</a>"
+            "buttons2": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-lg btn-success\">FOR WINDOWS</a>"
           },
           "title": "<span style=\"font-weight: normal;\">Telefoon: +31 88 no gw at</span><br><span style=\"font-weight: normal;\">E-mail: unkolsjarrel@tjulen.com</span><br><span style=\"font-weight: normal;\">KvK: [kvk]</span><br><span style=\"font-weight: normal;\">BTW: [nummer]</span><br><span style=\"font-weight: normal;\">Bank: [iban]</span><span style=\"font-weight: normal;\"><br></span>",
           "media1": {
